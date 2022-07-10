@@ -131,3 +131,66 @@ body {
   #########        CSS for Block Three    ###########
   ###################################################
   #################################################*/
+
+  .block-3 {
+    background-color:#E5E7EB;
+    padding: 100px 0px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-b3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 775px;
+  }
+
+  .quote {
+    text-align: left;
+    color: #1f2937cc;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 50;
+  }
+
+  .speaker {
+    text-align: right;
+    color: #1F2937;
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+  /*#################################################
+  ###################################################
+  #########        CSS for Block Four#    ###########
+  ###################################################
+  #################################################*/
+
+  .block-4 {
+    display: flex;
+    padding: 100px 0px;
+    justify-content: center;
+  }
+
+  .container-b4 {
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 8px;
+    max-width: fit-content;
+    gap: 300px
+  }
+
+  .action{
+    font-size: 20px;
+    color:#F9FAF8;
+    font-weight: 800;
+  }
+
+  .subaction {
+    color:#F9FAF8;
+    font-weight: 300;
+  }
+
+  .cb4-right {
+    margin-left:auto;
+  }
