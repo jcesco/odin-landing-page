@@ -1,233 +1,250 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-  }
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
 
-  /*#################################################
-  ###################################################
-  #########        CSS for Block One    #############
-  ###################################################
-  #################################################*/
- 
-  .block-1 {
-    background-color: #1F2937;
-    display: flex;
-    justify-content: center;
-  }
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
-  .b1-header-content-container {
-    display: flex;
-    flex-direction: column;
-  }
+/*#################################################
+###################################################
+#########        CSS for Header       #############
+###################################################
+#################################################*/
 
-  .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
-  }
+.header{
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+}
 
-  .header-logo {
-    color: #F9FAF8;
-    font-size: 24px;
-  }
+.logo{
+  color: #F9FAF8;
+  font-size: 24px;
+}
 
-  .header-links {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    gap: 16px;
-  }
+.links {
+  display: flex;
+  list-style: none;
+  margin-left: auto;
+  padding: 0;
+  gap: 16px;
+}
 
-  a {
-    color: #E5E7EB;
-    font-size: 18px;
-    text-decoration: none;
-  }
+a {
+  color: #E5E7EB;
+  font-size: 18px;
+  text-decoration: none;
+}
 
-  .container-b1 {
-    display: flex;
-    gap: 50px;
-    padding: 100px 0px;
-    max-width: fit-content;
-  }
+/*#################################################
+###################################################
+#########        CSS for Block 1      #############
+###################################################
+#################################################*/
 
-  .cb1-left {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 475px;
-  }
+.block-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1F2937;
+  padding: 90px;
+  gap: 50px;
+  flex-wrap: wrap;
+}
 
-  .hero-main {
-    color: #F9FAF8;
-    font-weight: 800;
-    font-size: 48px;
-  }
+.b1-left {
+  display: flex;
+  flex-direction: column;
+  text-align:left;
+  max-width: 475px;
+  gap: 10px;
+}
 
-  .hero-second {
-    color: #E5E7EB;
-    font-size: 18px;
-  }
+.b1-left h1 {
+  margin: 0px;
+}
 
-  .button-b1 {
-    background-color: #3882F6;
-    border: none;
-    color: #F9FAF8;
-    padding: 8px 32px;
-    border-radius: 8px;
-    width: 130px;
-  }
+.b1-left-main {
+  color: #F9FAF8;
+  font-weight: 800;
+  font-size: 48px;
+}
 
-  .cb1-right {
-    margin-left: auto;
-  }
+.b1-left-second {
+  color: #E5E7EB;
+  font-size: 18px;
+}
 
-  .plane {
-    height: 225px;
-    width: 600px;
-  }
+.b1-left p {
+  margin: 0px;
+}
+
+.b1-button {
+  background-color: #3882F6;
+  border: none;
+  color: #F9FAF8;
+  padding: 8px 32px;
+  border-radius: 8px;
+  width: 130px;
+}
+
+.plane {
+  height: 224px;
+  width: auto;
+  display: flex;
+}
+
+/*#################################################
+###################################################
+#########        CSS for Block Two    #############
+###################################################
+#################################################*/
+
+.block-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.b2-title {
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.b2-container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 65px;
+  flex-wrap: wrap;
+}
+
+.sq-pic {
+  height: 165px;
+  width: 165px;
+  border-radius: 8px;
+  border: 2px solid #3882F6;
+}
+
+.info {
+  max-width: 165px;
+  text-align: center;
+  color:#1F2937;
+}
 
 
-  /*#################################################
-  ###################################################
-  #########        CSS for Block Two    #############
-  ###################################################
-  #################################################*/
+/*#################################################
+###################################################
+#########        CSS for Block Three    ###########
+###################################################
+#################################################*/
 
-  .block-2 {
-    display: flex;
-    flex-direction: column;
-  }
+.block-3 {
+  background-color:#E5E7EB;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: center;
+}
 
-  .title-b2 {
-    color: #1F2937;
-    font-size: 36px;
-    font-weight: 800;
-    text-align: center;
-    padding: 50px 0px;
-  }
+.b3-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 775px;
+}
 
-  .container-b2 {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    padding-bottom: 65px;
-  }
+.b3-container p{
+  margin: 0px;
+}
 
-  .sq-pic {
-    height: 165px;
-    width: 165px;
-    border-radius: 8px;
-    border: 2px solid #3882F6;
-  }
+.quote {
+  text-align: left;
+  color: #1f2937cc;
+  font-size: 36px;
+  font-style: italic;
+  font-weight: 50;
+}
 
-  .info {
-    max-width: 165px;
-    text-align: center;
-    color:#1F2937;
-  }
+.speaker {
+  text-align: right;
+  color: #1F2937;
+  font-weight: 800;
+  font-size: 20px;
+}
 
+/*#################################################
+###################################################
+#########        CSS for Block Four#    ###########
+###################################################
+#################################################*/
 
-  /*#################################################
-  ###################################################
-  #########        CSS for Block Three    ###########
-  ###################################################
-  #################################################*/
+.block-4 {
+  display: flex;
+  padding: 100px 0px;
+  justify-content: center;
+}
 
-  .block-3 {
-    background-color:#E5E7EB;
-    padding: 100px 0px;
-    display: flex;
-    justify-content: center;
-  }
+.b4-container {
+  background-color: #3882F6;
+  display: flex;
+  border-radius: 8px;
+  justify-content: space-between;
+  padding: 10px 50px;
+  width: 1100px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
 
-  .container-b3 {
-    display: flex;
-    flex-direction: column;
-    max-width: 775px;
-  }
+.b4c-left h3,p {
+  margin: 0px;
+}
 
-  .quote {
-    text-align: left;
-    color: #1f2937cc;
-    font-size: 36px;
-    font-style: italic;
-    font-weight: 50;
-  }
+.b4c-left h3 {
+  padding-bottom: 5px;
+}
 
-  .speaker {
-    text-align: right;
-    color: #1F2937;
-    font-weight: 800;
-    font-size: 20px;
-  }
+.action{
+  font-size: 20px;
+  color:#F9FAF8;
+  font-weight: 800;
+}
 
-  /*#################################################
-  ###################################################
-  #########        CSS for Block Four#    ###########
-  ###################################################
-  #################################################*/
+.subaction {
+  color:#F9FAF8;
+  font-weight: 300;
+}
 
-  .block-4 {
-    display: flex;
-    padding: 100px 0px;
-    justify-content: center;
-  }
+.b4c-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .size-container-b4 {
-    width: 1125px;
-  }
+.b4-button {
+  background-color: #3882F6;
+  border: 1px solid #F9FAF8;
+  color: #F9FAF8;
+  padding: 8px 32px;
+  border-radius: 8px;
+  width: 130px;
+}
 
-  .container-b4 {
-    background-color: #3882F6;
-    display: flex;
-    border-radius: 8px;
-    padding: 10px 100px;
-    justify-content: space-between;
-  }
+/*#################################################
+###################################################
+#########        CSS for Footer         ###########
+###################################################
+#################################################*/
 
-  .action{
-    font-size: 20px;
-    color:#F9FAF8;
-    font-weight: 800;
-  }
-
-  .subaction {
-    color:#F9FAF8;
-    font-weight: 300;
-  }
-
-  .cb4-right {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
-
-  .button-b4 {
-    background-color: #3882F6;
-    border: 1px solid #F9FAF8;
-    color: #F9FAF8;
-    padding: 8px 32px;
-    border-radius: 8px;
-    width: 130px;
-  }
-  
-  /*#################################################
-  ###################################################
-  #########        CSS for Block Five     ###########
-  ###################################################
-  #################################################*/
-
-  .footer {
-    background-color: #1F2937;
-    color:#E5E7EB;
-    font-size: 14px;
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
+.footer {
+  background-color: #1F2937;
+  color:#E5E7EB;
+  font-size: 14px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0px;
+}
